@@ -196,7 +196,6 @@ Wire Wire Line
 Wire Wire Line
 	1900 2600 1900 2450
 NoConn ~ 1800 2600
-NoConn ~ 1600 2600
 NoConn ~ 2200 3400
 NoConn ~ 2200 3100
 NoConn ~ 2200 3000
@@ -473,8 +472,8 @@ $Comp
 L MCU_Module:Arduino_Nano_v3.x A1
 U 1 1 6163ADCC
 P 1700 3600
-F 0 "A1" H 1300 4800 50  0000 C CNN
-F 1 "Arduino_Nano_v3.x" H 1300 4900 50  0000 C CNN
+F 0 "A1" H 1050 4500 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 900 4600 50  0000 C CNN
 F 2 "jwm_kicad_footprints_misc:Arduino_Nano_WithMFHeadersAnd3DModel" H 1700 3600 50  0001 C CIN
 F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 1700 3600 50  0001 C CNN
 	1    1700 3600
@@ -542,4 +541,17 @@ Text Notes 5900 5750 0    50   ~ 0
     PCB1\n(Main Board)
 Text Notes 6550 5750 0    50   ~ 0
  PCB2\n(Panel)
+$Comp
+L Connector_Generic:Conn_01x01 J9
+U 1 1 6190B91D
+P 1600 2250
+F 0 "J9" V 1800 2300 50  0000 R CNN
+F 1 "VIN" V 1700 2300 50  0000 R CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 1600 2250 50  0001 C CNN
+F 3 "~" H 1600 2250 50  0001 C CNN
+	1    1600 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 2600 1600 2450
 $EndSCHEMATC
