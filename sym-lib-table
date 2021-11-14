@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name current_measurer-rescue)(type Legacy)(uri ${KIPRJMOD}/current_measurer-rescue.lib)(options "")(descr ""))
-)
