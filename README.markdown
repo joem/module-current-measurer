@@ -1,7 +1,7 @@
 Module Current Measurer (MCM)
 =============================
 
-> _**WARNING:** This has not successfully been tested yet! (I built one and it didn't work, and I'm not sure if it's a problem with the design or the code or the soldering. I'll remove this warning when it's fixed.)_
+> :warning: _**WARNING:** This has not successfully been tested yet! (I built one and it didn't work, and I'm not sure if it's a problem with the design or the code or the soldering. I'll remove this warning when it's fixed.)_
 
 This is a simple, inexpensive, and easy-to-build Eurorack module designed to measure the current used by other Eurorack modules. It uses some readily available electronics modules to make assembly easier. I made it as practice for my PCB and module design skills, and because I realized I really wanted something like this at about the same time I discovered cheap INA3221 modules on Aliexpress.
 
@@ -46,7 +46,7 @@ The only (not shrouded) header I'd strongly recommend ordering in the exact size
 Build Notes
 -----------
 
-> _**WARNING:** This has not successfully been tested yet! (I built one and it didn't work, and I'm not sure if it's a problem with the design or the code or the soldering. I'll remove this warning when it's fixed.)_
+> :warning: _**WARNING:** This has not successfully been tested yet! (I built one and it didn't work, and I'm not sure if it's a problem with the design or the code or the soldering. I'll remove this warning when it's fixed.)_
 
 - There are components on both sides of both boards, so be sure you're putting each component in the side that has a silkscreen for that component.
 
