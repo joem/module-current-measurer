@@ -7,6 +7,8 @@ This is a simple, inexpensive, and easy-to-build Eurorack module designed to mea
 
 The [Joranalogue Test 3](https://joranalogue.com/products/test-3) is a similar module and a much better one than this in almost every way, so I highly recommend that you use that one instead of this. The Test 3 does not rely on the might-no-longer-be-available electronics modules that the MCM relies on. The Test 3 has a nice aluminum panel. The Test 3 is made by an experience (and really good!) module designer. The Test 3 does not have all the exposed solder connections that the MCM has. 
 
+Opening the KiCad project requires KiCad 6 at a minimum. I've removed the old KiCad 5 files.
+
 BOM
 ---
 
